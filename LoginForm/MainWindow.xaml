@@ -1,0 +1,16 @@
+﻿<Window x:Class="LoginForm.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Login" Height="250" Width="400">
+    <Grid>
+        <StackPanel Margin="20">
+            <TextBlock Text="Username" FontWeight="Bold"/>
+            <TextBox x:Name="UsernameTextBox" Height="30"/>
+
+            <TextBlock Text="Password" FontWeight="Bold" Margin="0, 10, 0, 0"/>
+            <PasswordBox x:Name="PasswordBox" Height="30"/>
+
+            <Button Content="Login" Click="LoginButton_Click" Height="40" Margin="0, 20, 0, 0"/>
+        </StackPanel>
+    </Grid>
+</Window>
